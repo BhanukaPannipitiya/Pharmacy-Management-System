@@ -11,7 +11,7 @@
     <div class="search wf-section">
         <div class="search-container">
             <form action="#">
-                <input type="text" placeholder="Search...">
+                <input id="search" type="text" placeholder="Search...">
                 <img id="search-icon" src="Images/search.png">
             </form>
         </div>
@@ -104,7 +104,7 @@
         </table>
         <div  id="dash"></div>
         <div class="details">
-            <h2 class="Name" id="Net">Date:</h2>
+            <h2 class="Name" id="Net">Net Total:</h2>
         </div>
         <div class="box" id="Net-box"></div>
         <div class="flex-container">
@@ -116,6 +116,77 @@
         <div id="bg">
             <img src="Images/Dewmini.png">
         </div>
+        <div class="Heading-main">
+            <div  id="main-h">Issue Purchase Order</div>
+            <div class="DandT" id="Date" >Date:<div class="DandT">12/12/2012</div></div><div class="DandT">Time:<div class="DandT">17:03</div></div>
+        </div>
+        <div id="main-h2">Select a supplier to add a purchase order</div>
+        <div class="supplier-table">
+            <table class="supplier-table"  id="table2" style="overflow-block: scroll;" >
+                <tr>
+                    <th class="th2">Supplier ID</th>
+                    <th class="th2">Supplier Name</th>
+                    <th class="th2">Email</th>
+                </tr>
+                <tr>
+                    <td class="th2">S001</td>
+                    <td class="th2">John Doe</td>
+                    <td class="th2">johndoe@example.com</td>
+                </tr>
+                <tr >
+                    <td class="th2">S002</td>
+                    <td class="th2">Jane Doe</td>
+                    <td class="th2">janedoe@example.com</td>
+                </tr>
+                <tr>
+                    <td class="th2">S003</td>
+                    <td class="th2">Bob Smith</td>
+                    <td class="th2">bobsmith@example.com</td>
+                </tr>
+                <tr>
+                    <td class="th2">S004</td>
+                    <td class="th2">Alice Johnson</td>
+                    <td class="th2">alicejohnson@example.com</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="block">
+        <div style="width: 300px; margin: 0 auto;">
+            <label for="supplierId">Supplier ID:</label>
+            <input type="text" id="supplierId" placeholder="">
+        </div>
+
+
+        <div style="width: 300px; margin: 10px auto;">
+            <label for="productId">Product ID:</label>
+            <select id="productId">
+                <option value="">Select a Product</option>
+                <option value="Product 1">Product 1</option>
+                <option value="Product 2">Product 2</option>
+                <option value="Product 3">Product 3</option>
+            </select>
+        </div>
+
+        <div style="width: 300px; margin: 10px auto;">
+            <label for="productId">Product Name:</label>
+            <select id="productName">
+                <option value="">Select a Product</option>
+                <option value="Product 1">Product 1</option>
+                <option value="Product 2">Product 2</option>
+                <option value="Product 3">Product 3</option>
+            </select>
+        </div>
+        </div>
+        <div style="text-align: center;">
+            <button style="background-color: #00917C; color: white; padding: 10px 20px; border: none; margin-left: 10px;margin-top: 200px;">Add</button>
+            <button style="background-color: red; color: white; padding: 10px 20px; border: none;  margin-left: 80px;">Clear</button>
+        </div>
+
+
+
+
     </div>
 
 
