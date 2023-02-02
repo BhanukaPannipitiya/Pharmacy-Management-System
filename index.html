@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Stock Manager</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="search wf-section">
+        <div class="search-container">
+            <form action="#">
+                <input type="text" placeholder="Search...">
+                <img id="search-icon" src="Images/search.png">
+            </form>
+        </div>
+    </div>
+    <div class="logo wf-section">
+        <div class="container">
+            <img class="container" id="logo"src="Images/Dewmini.png">
+            <h1 class="container" id="userH-1">Stock Manager</h1>
+            <img class="container" src="Images/prof%20pic.jpeg "id="profile-pic">
+            <h2 class="container" id="user-name">Jhon Doe</h2>
+        </div>
+
+    </div>
+    <div class="dashboard wf-section">
+        <div class="container-2">
+            <h1 class="container-2" id="Heading-dashboard">Dashboard</h1>
+            <div class="options">
+                <h1 class="options">Manage Products</h1>
+            </div>
+            <div class="options">
+                <h1 class="options">Isue Purchase Order</h1>
+            </div>
+            <div class="options">
+                <h1 class="options">Issue Purchase Invoice</h1>
+            </div>
+            <div class="options">
+                <h1 class="options">Request Quotation</h1>
+            </div>
+            <div class="options">
+                <h1 class="options">Issue Good Recieve Note</h1>
+            </div>
+            <div class="options">
+                <h1 class="options">Supplier Payment</h1>
+            </div>
+            <div class="options">
+                <h1 class="options">Issue Purchase Return Note</h1>
+            </div>
+        </div>
+    </div>
+    <div class="summary wf section">
+        <h1 id="Heading-Order">Purchase Order Summary</h1>
+        <div class="details">
+            <h2 class="Name">Purchase Order ID: </h2>
+        </div>
+        <div class="box"></div>
+        <div class="details">
+            <h2 class="Name">Supplier ID:</h2>
+        </div>
+        <div class="box"></div>
+        <div class="details">
+            <h2 class="Name">Date:</h2>
+        </div>
+        <div class="box"></div>
+
+        <table class="borderless-table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Qty</th>
+                <th>Unit price</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Item 1</td>
+                <td>10</td>
+                <td>$5</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Item 2</td>
+                <td>5</td>
+                <td>$10</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Item 3</td>
+                <td>2</td>
+                <td>$20</td>
+                <td>$40</td>
+            </tr>
+            <tr>
+                <td>Item 4</td>
+                <td>1</td>
+                <td>$50</td>
+                <td>$50</td>
+            </tr>
+            </tbody>
+        </table>
+        <div  id="dash"></div>
+        <div class="details">
+            <h2 class="Name" id="Net">Date:</h2>
+        </div>
+        <div class="box" id="Net-box"></div>
+        <div class="flex-container">
+            <button class="flex-item" id="print">Print</button>
+            <button class="flex-item"id="Email">Send Email</button>
+        </div>
+    </div>
+    <div class="main">
+        <div id="bg">
+            <img src="Images/Dewmini.png">
+        </div>
+    </div>
+
+
+</body>
+</html>

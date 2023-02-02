@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.search{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 5vh;
+    margin-right: 20vw;
+    margin-left: 15%;
+    padding-bottom: 2%;
+    background-color: black;
+
+}
+.logo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    width:15% ;
+    height: 28vh;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+        -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    background-color: brown;
+    background: #035956;
+    opacity: 0.9;
+
+
+}
+.dashboard{
+    position: fixed;
+    width: 15%;
+    height: 73vh;
+    top: 28vh;
+    background-color: greenyellow;
+}
+.summary{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    height: 100vh;
+    background-color: blue;
+}
+.main{
+    position: fixed;
+    width:60% ;
+    height: 95vh;
+    left: 15%;
+    top:10vh;
+    bottom: 0;
+
+
+
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+
+}
+#logo{
+
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+
+}
+#userH-1{
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+#profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+}
+#user-name{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.dashboard{
+    background: #035956;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 3px;
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px 20px;
+    padding-top: 3px;
+
+
+}
+#Heading-dashboard{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+.options{
+
+    width: 100%;
+
+    background: #00917C;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+/*------------------------------------search */
+.search{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #035956;
+
+}
+
+
+form {
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 5px;
+}
+
+input[type="text"] {
+    margin-top: 7px;
+    height: 25px;
+    width: 30vw;
+    font-size: 14px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid gray;
+
+}
+#search-icon{
+    margin-top: 7px;
+    width: 20px;
+    height: 20px;
+}
+/*-------------------summary*/
+.summary{
+
+
+
+    background: #00917C;
+}
+#Heading-Order{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 47px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    gap: 20px 20px;
+    justify-content: left;
+    margin-left: 5px;
+
+
+}
+.Name{
+    top: 0;
+    bottom: 0;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+    display: flex;
+    align-items: flex-start;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+
+
+}
+.box{
+    margin-top: -40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    margin-right: 10px;
+    float: right;
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+
+
+
+}
+.small-headings{
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #F8F8F8;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:left;
+}
+.borderless-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.borderless-table td,
+.borderless-table th {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #F8F8F8;
+    border: 0;
+    padding: 8px;
+}
+#dash{
+    width: 85%;
+    margin-top: 5px;
+    margin-left: 30px;
+    background: #FFFFFF;
+    border: 1px dashed #FFFFFF;
+}
+#Net{
+    margin-left: 50px;
+}
+#Net-box{
+    margin-right: 50px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-item {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: 50px;
+    margin-top: 90px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+}
+#print {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    border: 0px ;
+    color: #FFFFFF;
+    background: #3BACB6;
+}
+#Email{
+    border: 0px ;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #035956;
+}
+/*------------Main----------*/
+.main{
+
+}
+#bg{
+    margin-top: 20px;
+    text-align: center;
+    opacity: 20%;
+    mix-blend-mode: multiply;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
